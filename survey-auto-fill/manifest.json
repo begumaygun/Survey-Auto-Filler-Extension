@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Anket Otomatik Doldurucu",
+  "version": "1.0",
+  "description": "ÇÜBİS sistemindeki anketleri otomatik olarak doldurur.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["*://*.cu.edu.tr/*"],
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
